@@ -1,0 +1,32 @@
+$blue: lightblue;
+$grey: lightgrey;
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.appWrap {
+	position: relative;
+	width: 400px;
+	font-family: "Consolas";
+	left: 50%;
+	margin-left: -200px;
+	margin-top: 80px;
+
+	.appTitle {
+		box-sizing: border-box;
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		padding: 0 20px;
+		background-color: $grey;
+	}
+	.appContent {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 20px;
+		height: 200px;
+		background-color: $blue;
+	}
+}
