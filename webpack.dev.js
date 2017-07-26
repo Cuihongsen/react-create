@@ -74,14 +74,14 @@ module.exports = {
 				// 'NODE_ENV': JSON.stringify('production')
 			}
 		}),
-		new webpack.LoaderOptionsPlugin({
-			debug: false,
-			options: {
-				postcss: [
-					autoprefixer()
-				],
-			},
-		}),
+		// new webpack.LoaderOptionsPlugin({
+		// 	debug: false,
+		// 	options: {
+		// 		postcss: [
+		// 			autoprefixer()
+		// 		],
+		// 	},
+		// }),
 		new OpenBrowserPlugin({url: 'http://localhost:1234'})
 	]
 };
